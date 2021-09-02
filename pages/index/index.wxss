@@ -1,0 +1,44 @@
+page {
+  background: #F5F7FA;
+  min-height: 100vh;
+  font-size: 28rpx;
+}
+
+.top-section {
+  padding: 24rpx 24rpx 32rpx 24rpx;
+  background: #FFFFFF;
+  box-shadow: 0rpx 8rpx 20rpx 0rpx rgba(159,159,159,0.10);
+}
+
+.swiper {
+  width: 700rpx;
+  height: 300rpx;
+}
+
+.swiper-image {
+  width: 700rpx;
+  height: 300rpx;
+}
+
+.modules {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 32rpx;
+}
+
+.module-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.module-item image {
+  width: 88rpx;
+  height: 88rpx;
+}
+
+.module-item title {
+  margin-top: 8rpx;
+}

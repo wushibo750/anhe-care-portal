@@ -1,0 +1,11 @@
+<!--pages/employee/serviceReviews/employeeServiceReviewsPage.wxml-->
+<view class="employeeServiceReviewsPageContainer">
+  <view wx:for="{{serviceReviewsItem}}" class="employeeServiceReviewsPageItemView">
+    <text>服务工单号：{{item.serviceId}}</text>
+    <text>服务时间：{{item.serviceDate}}</text>
+    <text>服务类型：{{item.serviceType}}</text>
+    <text>老人姓名：{{item.oldmanName}}</text>
+    <text>服务内容：{{item.serviceContent}}</text>
+    <text>服务评价：{{item.serviceReviews}}</text>
+  </view>
+</view>

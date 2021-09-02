@@ -1,0 +1,23 @@
+<view class="page">
+  <view class="top-section">
+    <view class="page-section page-section-spacing swiper">
+      <swiper class="swiper" indicator-dots="{{swiper.indicatorDots}}"
+        autoplay="{{swiper.autoplay}}" interval="{{swiper.interval}}" duration="{{swiper.duration}}">
+        <block wx:for="{{slides}}" wx:key="*this">
+          <swiper-item>
+            <view class="swiper-item">
+              <image class="swiper-image" src="{{item.url}}" />
+            </view>
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+
+    <view class="modules">
+      <view class="module-item" wx:for="{{modules}}" wx:key="*this">
+        <image src="{{item.icon}}" />
+        <view>{{item.title}}</view>
+      </view>
+    </view>
+  </view>
+</view>

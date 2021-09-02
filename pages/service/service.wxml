@@ -1,0 +1,71 @@
+<view class="total">
+  <view class="information">
+    <view class="info1">
+      <view class="info1-1">
+      郑明明 男 1982.06.22
+      </view>
+      <view class="info1-2">
+        切换
+      </view>
+    </view>
+    <view class="info2">
+      进行中的预约：1次
+    </view>
+    <view class="info3">
+      查看预约 >
+    </view>
+    <view class="info4">
+     剩余预约次数：5次
+    </view>
+  </view>
+  <view class="home">
+    <view class="home1">
+      <view class="home1-3"></view>
+      <view class="home1-1">居家养老</view>
+      <view class="home1-2">查看更多</view>
+    </view>
+    <view class="home2">
+      <image src="../../assets/servicepage/demo1.png"  class="home2-1" />
+      <view class="home2-2">服务项目送餐
+        <view class="home2-4">150元/次</view>
+      </view>
+      <view class="home2-3">立即预约</view>
+    </view>
+    <view class="home2">
+      <image src="../../assets/servicepage/demo1.png"  class="home2-1" />
+      <view class="home2-2">服务项目送餐
+        <view class="home2-4">150元/次</view>
+      </view>
+      <view class="home2-3-1">立即预约</view>
+    </view>
+    <view class="home2">
+      <image src="../../assets/servicepage/demo1.png"  class="home2-1" />
+      <view class="home2-2">服务项目送餐
+        <view class="home2-4">150元/次</view>
+      </view>
+      <view class="home2-3-2">立即预约</view>
+    </view>
+  </view>
+  <view class="old">
+    <view class="old1">
+      <view class="old1-3"></view>
+      <view class="old1-1">养老机构</view>
+      <view class="old1-2">查看更多</view>
+    </view>
+    <view class="old2">
+      <view class="old2-1">
+        <image src="../../assets/servicepage/demo2.png" />
+        <view class="old2-2">北京通州华龙老年公寓</view>
+         <image style="width:118rpx ;height:25rpx" src="../../assets/servicepage/demo3.png" />
+         <text>电话咨询</text>
+      </view>
+      <view class="old2-1">
+         <image src="../../assets/servicepage/demo2.png" />
+        <view class="old2-2">北京通州华龙老年公寓</view>
+        <image style="width:118rpx ;height:25rpx" src="../../assets/servicepage/demo3.png" />
+        <text>电话咨询</text>
+      </view>
+    </view>
+  </view>
+</view>
+

@@ -1,0 +1,40 @@
+<view class="employeeMainPageContainer">
+  <view class="employeeMainPageSearchBarBgView">
+    <view class="employeeMainPageSearchBar">
+      <icon class="employeeMainPageSearchBarSearchIcon" type="search" size="14"></icon>
+      <input class="employeeMainPageSearchBarTextInput" auto-focus="true" bindinput="searchBarInput" placeholder="搜索岗位名称" />
+    </view>
+  </view>
+  <view class="employeeMainPageFilterBgView">
+  <view class="employeeMainPageFilterBgViewLeftItemBgView">
+    <view wx:for="{{filterData}}" class="employeeMainPageFilterBgViewLeftItemContainerView">
+      <text>{{item.filterDesc}}</text>
+      <view class="employeeMainPageFilterBgViewItem">
+      <text>{{item.filterValue}}</text>
+      </view>
+    </view>
+  </view>
+  <view class="employeeMainPageFilterBgViewRightItemBgView">
+    <view class="employeeMainPageFilterBgViewItem">
+      <text>bbb</text>
+    </view>
+  </view>
+  </view>
+
+<view class="employeeMainPageCenterHintBgView" hidden="{{shouldHideCenterHint}}">
+  <text class="employeeMainPageCenterHintHintText">您尚未完善</text>
+  <button class="employeeMainPageCenterHintButton">完善</button>
+</view>
+
+<image class="employeeMainPageCenterImageView" mode="widthFix" src="{{centerAdImageUri}}"></image>
+
+<view wx:for="{{jobDescritionItem}}" class="employeeMainPageJobDescriptionItemView">
+  <text style="width: 80%;">{{item.jobTitle}}</text>
+  <text style="width: 20%;">{{item.jobPosition}}</text>
+  <text style="width: 100%;" wx:for="{{item.jobRequirement}}">{{item}}</text>
+  <text>{{item.price}}</text>
+  <text wx:if="{{item.hasPost == 1}}">已投递</text>
+  <text wx:if="{{item.hasPost == 0}}">投递</text>
+</view>
+
+</view>

@@ -1,0 +1,132 @@
+/* container */
+.employeeMainPageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* searchBar */
+.employeeMainPageSearchBarBgView {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100rpx;
+  background-color: coral;
+}
+
+.employeeMainPageSearchBar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 30rpx;
+  width: 90%;
+  height: 60rpx;
+  background-color: gainsboro;
+}
+
+.employeeMainPageSearchBarSearchIcon {
+  margin-left: 10rpx;
+}
+
+/* filter */
+
+.employeeMainPageFilterBgView {
+  display: flex;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px #dddddd;
+  flex-direction: row;
+  height: auto;
+  width: 90%;
+  margin-top: 20rpx;
+  padding-top: 10rpx;
+  padding-bottom: 10rpx;
+}
+
+.employeeMainPageFilterBgViewLeftItemBgView {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  height: auto;
+  background-color: transparent;
+  padding-left: 10rpx;
+}
+
+.employeeMainPageFilterBgViewRightItemBgView {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: auto;
+  background-color: transparent;
+  align-items: flex-end;
+  padding-right: 10rpx;
+}
+
+.employeeMainPageFilterBgViewLeftItemContainerView {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  background-color: transparent;
+}
+
+.employeeMainPageFilterBgViewItem {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  background-color: lavender;
+  border-radius: 6rpx;
+  padding-right: 5rpx;
+  padding-left: 5rpx;
+}
+
+/* hintRow */
+
+.employeeMainPageCenterHintBgView {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: tomato;
+  height: auto;
+  width: 100%;
+}
+
+.employeeMainPageCenterHintHintText {
+  width: 80%;
+  margin-left: 10rpx;
+  background-color: turquoise;
+}
+
+.employeeMainPageCenterHintButton {
+  width: 20%;
+  background-color: transparent;
+  font: outline;
+  font-size: 34rpx;
+  background-color: violet;
+}
+
+/* center ad image */
+
+.employeeMainPageCenterImageView {
+  width: 90%;
+  background-color: tomato;
+  margin-top: 10rpx;
+}
+
+/* job description item */
+
+.employeeMainPageJobDescriptionItemView {
+  width: 90%;
+  height: 200rpx;
+  background-color: wheat;
+  border-radius: 6rpx;
+  box-shadow: 0px 0px 10px #dddddd;
+  margin-top: 30rpx;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

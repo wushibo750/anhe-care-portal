@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/service/service",
+    "pages/xun/xun",
+  
+    "pages/index/index",
+
+    "pages/logs/logs",
+    "pages/employee/main/employeeMainPage",
+    "pages/employee/serviceReviews/employee",
+    "pages/employee/serviceReviews/employeeServiceReviews",
+    "pages/employee/serviceReviews/employeeServiceReviewsPage"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FA4F74",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "backgroundColor": "#ffffff",
+    "color": "#B5B5B5",
+    "selectedColor": "#FA4F74",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/assets/tabbar/home.png",
+        "selectedIconPath": "assets/tabbar/home-activated.png"
+      },
+      {
+        "pagePath": "pages/service/service",
+        "text": "服务",
+        "iconPath": "/assets/tabbar/service.png",
+        "selectedIconPath": "assets/tabbar/service-activated.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
