@@ -1,10 +1,7 @@
 {
   "pages": [
-    "pages/service/service",
-    "pages/xun/xun",
-  
     "pages/index/index",
-
+    "pages/service/service",
     "pages/logs/logs",
     "pages/employee/main/employeeMainPage",
     "pages/employee/serviceReviews/employee",
